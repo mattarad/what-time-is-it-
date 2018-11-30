@@ -1,0 +1,11 @@
+import datetime
+
+currentDT = datetime.datetime.now()
+clock = currentDT.hour
+
+if clock < 12:
+  print('good morning, world! the time is {}!'.format(currentDT))
+elif clock < 18:
+  print('good afternoon, world! the time is {}!'.format(currentDT))
+else:
+  print('good evening, world! the time is {}!'.format(currentDT))
